@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.nav nav{
+    background-color: aqua;
+    
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav img{
+    height:45px;
+    display: inline-block;
+    
+}
+h1{
+    margin: 30px;
+    text-align: center;
+}
+h3{
+    margin-top: 30px;
+    margin-left: 15px;
+    
+}
+#infonotes{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.notes{
+    margin: 20px;
+    background-color: aquamarine;
+    border: 3px solid rgb(255, 0, 149);
+    text-align: center;
+    justify-content: center;
+    height: 400px;
+    overflow: scroll;
+}
+notesinfo:nth-child(1st){
+    color: red;
+    
+}
+.button button{
+    border: 3px solid greenyellow;
+    background-color: aqua;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 5px;
+    cursor: pointer;
+
+}
